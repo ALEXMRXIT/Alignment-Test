@@ -1,0 +1,3 @@
+[submodule "MASM32-SDK"]
+	path = MASM32-SDK
+	url = https://github.com/tonado/MASM32-SDK
