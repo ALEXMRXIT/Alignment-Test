@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
 project(MasmAlignmentTest LANGUAGES ASM_MASM)
 
-set(MASM32_PATH "D:/masm32")
+set(MASM32_PATH "${CMAKE_CURRENT_SOURCE_DIR}/MASM32-SDK")
+
 include_directories(${MASM32_PATH}/include)
 link_directories(${MASM32_PATH}/lib)
 

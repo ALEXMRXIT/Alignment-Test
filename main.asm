@@ -2,14 +2,14 @@
 .model flat, stdcall
 option casemap:none
 
-include \masm32\include\windows.inc
-include \masm32\include\kernel32.inc
-include \masm32\include\user32.inc
-include \masm32\include\masm32.inc
+include MASM32-SDK\include\windows.inc
+include MASM32-SDK\include\kernel32.inc
+include MASM32-SDK\include\user32.inc
+include MASM32-SDK\include\masm32.inc
 
-includelib \masm32\lib\kernel32.lib
-includelib \masm32\lib\user32.lib
-includelib \masm32\lib\masm32.lib
+includelib MASM32-SDK\lib\kernel32.lib
+includelib MASM32-SDK\lib\user32.lib
+includelib MASM32-SDK\lib\masm32.lib
 
 .data
 align 16
